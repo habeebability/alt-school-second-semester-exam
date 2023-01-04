@@ -1,7 +1,7 @@
 # Old second semester Exam Demo Link
 
-Link to the exam demo: [Create React App](https://altschool-exam-habeeb.netlify.app/).
+Link to Second semester Exam First Live Demo Link: [Second semester Exam first link](https://altschool-exam-habeeb.netlify.app/).
 
 ## Updated version of the altschool second semester Exam Demo Link done during the holiday challenge
 
-Link to the update: [Create React App](https://altschool-sec-semester-update.netlify.app/).
+Link to the update of second semester exam holiday challenge : [Updated Second semester Exam link](https://altschool-sec-semester-update.netlify.app/).

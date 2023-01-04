@@ -1,4 +1,14 @@
-:root {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
@@ -15,17 +25,19 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-}
+} */
 
-nav {
+/* nav {
   display: flex;
   font-weight: 900;
   justify-content: space-between;
-  /* min-width: 30vw; */
   margin: 5px;
-}
+} */
 
-nav a {
+nav .active {
+  color: rgb(177, 3, 177);
+}
+/* nav a {
   font-weight: 500;
   color: rgb(59, 13, 13);
   text-decoration: inherit;
@@ -40,26 +52,25 @@ a:hover {
 button a {
   color: white;
   text-decoration: none;
-}
+} */
 
 body {
-  margin: 0;
-  display: flex;
+  /* margin: 0;
+  padding: 0; */
+
   /* min-width: 320px;
   min-height: 100vh; */
 }
-input {
+/* input {
   width: 70%;
   border: none;
   border-radius: 5px;
   padding: 12px 20px;
   margin: 8px 0;
-}
-
-h1 {
-  color: green;
-  font-size: 3.2em;
-  line-height: 1.1;
+} */
+img {
+  width: 100%;
+  max-width: 100%;
 }
 
 button {
@@ -83,7 +94,7 @@ button:focus-visible {
 }
 
 a:hover {
-  color: #e85d04;
+  color: rgb(177, 3, 177);
 }
 
 .number-form {

@@ -10,17 +10,19 @@ import UseCounter from "./views/UseCounter";
 import ErrorBoundary from "./components/ErrorBoundaryComponent.js";
 import UseReducer from "./views/UseReducer";
 import Error404 from "./views/Error404";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <ErrorBoundary>
       <BrowserRouter>
-        <nav className="nav">
+        {/* <nav className="nav">
           <Link to="/">Home</Link>
           <Link to="/use-reducer">UseReducer</Link>
           <Link to="/use-counter">CustomHook</Link>
           <Link to="/error-boundary">ErrorBoundary</Link>
-        </nav>
+        </nav> */}
+        <Navbar />
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/use-counter" element={<UseCounter />}></Route>
